@@ -1,0 +1,57 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project-specific generated artifacts
+outputs/
+results/
+*.log
+
+# Data files (if you do not want to commit raw/generated datasets)
+# data/
+
+# Environment config
+.env
+.env.*
+
+# Packaging / build outputs
+build/
+dist/
+*.egg-info/
+
+# Test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Large output / model artifacts
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Dataset (too large for git): raw daily files and processed arrays
+data/raw/*
+!data/raw/.gitkeep
+data/processed/

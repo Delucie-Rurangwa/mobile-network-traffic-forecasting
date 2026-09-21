@@ -1,0 +1,10 @@
+model,params,single_seed_val_RMSE,val_MAE_mean,val_RMSE_mean,val_RMSE_std
+lstm,"{""batch_size"": 64, ""dropout"": 0.1, ""hidden"": 128, ""layers"": 1, ""lr"": 0.003, ""window"": 36}",158.205,105.359,166.136,7.539
+lstm,"{""batch_size"": 64, ""dropout"": 0.1, ""hidden"": 128, ""layers"": 1, ""lr"": 0.001, ""window"": 36}",159.195,109.18,172.476,14.401
+lstm,"{""batch_size"": 64, ""dropout"": 0.0, ""hidden"": 128, ""layers"": 1, ""lr"": 0.001, ""window"": 36}",161.544,107.242,168.579,7.98
+tcn,"{""batch_size"": 64, ""channels"": 64, ""dropout"": 0.0, ""kernel_size"": 3, ""levels"": 5, ""lr"": 0.003, ""window"": 72}",157.311,98.331,152.057,6.057
+tcn,"{""batch_size"": 64, ""channels"": 64, ""dropout"": 0.1, ""kernel_size"": 3, ""levels"": 5, ""lr"": 0.001, ""window"": 72}",157.589,100.912,155.988,6.004
+tcn,"{""batch_size"": 64, ""channels"": 32, ""dropout"": 0.1, ""kernel_size"": 3, ""levels"": 5, ""lr"": 0.001, ""window"": 72}",161.086,105.718,164.904,3.05
+transformer,"{""batch_size"": 64, ""d_model"": 64, ""dim_ff"": 128, ""dropout"": 0.1, ""layers"": 1, ""lr"": 0.001, ""n_heads"": 4, ""window"": 36}",151.192,101.209,157.214,7.656
+transformer,"{""batch_size"": 64, ""d_model"": 64, ""dim_ff"": 128, ""dropout"": 0.1, ""layers"": 2, ""lr"": 0.001, ""n_heads"": 4, ""window"": 36}",157.112,103.528,160.655,3.148
+transformer,"{""batch_size"": 64, ""d_model"": 64, ""dim_ff"": 128, ""dropout"": 0.1, ""layers"": 1, ""lr"": 0.0003, ""n_heads"": 4, ""window"": 36}",158.514,106.126,163.468,4.716

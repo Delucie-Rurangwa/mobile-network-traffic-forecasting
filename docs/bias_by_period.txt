@@ -1,0 +1,12 @@
+lstm
+  train bias    23.0 (  1.5% of mean) | MAE  138.8 | 59% positive
+  val   bias   -17.5 ( -1.0% of mean) | MAE  101.2 | 49% positive
+  test  bias    33.3 (  2.3% of mean) | MAE   91.3 | 64% positive
+transformer
+  train bias    20.9 (  1.4% of mean) | MAE  135.7 | 61% positive
+  val   bias    -4.8 ( -0.3% of mean) | MAE   97.7 | 55% positive
+  test  bias    45.4 (  3.1% of mean) | MAE   92.2 | 69% positive
+tcn
+  train bias    16.8 (  1.1% of mean) | MAE  135.3 | 58% positive
+  val   bias   -34.8 ( -2.0% of mean) | MAE  100.1 | 44% positive
+  test  bias    31.5 (  2.2% of mean) | MAE   96.6 | 63% positive

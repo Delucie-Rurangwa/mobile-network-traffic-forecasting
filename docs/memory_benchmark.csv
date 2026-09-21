@@ -1,0 +1,4 @@
+variant,in_memory_mb,peak_rss_mb,base_rss_mb,seconds,rows,peak_rss_reduction_vs_A_%,in_memory_x_days_(extrapolated_MB)
+A_naive,295.6,676.1,70.4,1.0,4842625,0.0,18325.4
+B_cols_dtypes,64.7,219.6,70.4,0.7,4842625,67.5,4008.7
+C_chunked_aggregated,5.5,264.5,70.4,0.7,-1,60.9,340.6

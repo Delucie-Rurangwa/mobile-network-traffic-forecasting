@@ -1,0 +1,4 @@
+model,train_s,train_s_std,epochs,params,infer_week_s,infer_ms_per_sample_batched,infer_ms_single,train_s_per_epoch
+lstm,20.205,3.889,33.222,69249,0.028,0.028,0.254,0.608
+tcn,107.635,29.069,24.0,112641,0.432,0.428,0.485,4.485
+transformer,19.752,7.133,41.0,34049,0.017,0.017,0.105,0.482
